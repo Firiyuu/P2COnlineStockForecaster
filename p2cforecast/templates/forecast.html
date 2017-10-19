@@ -1,0 +1,24 @@
+{% block content %}
+
+<br>
+<h1>Welcome! Please put the following information: </h1>
+
+
+
+<form method=get action="">
+  Remaining stocks {{ form.rmn }}
+  Stocks 1st month{{ form.sold1 }}
+  Stocks 2nd month {{ form.sold2 }}
+  <input type=submit value=equals>
+</form>
+
+
+
+
+{% if result != None %}
+{{result}}
+{% endif %}
+
+
+
+{% endblock %}

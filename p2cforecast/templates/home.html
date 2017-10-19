@@ -1,0 +1,51 @@
+{% block content %}
+
+<h1>Welcome to the P2C SKU Manipulator and Forecaster </h1>
+<br/>
+<h2>What do you want to do?</h2>
+
+<form method = "GET">
+
+<form class="p2c-form">
+                    <fieldset>
+                        <div class="p2c-form-group">
+                            <label for="show">Show all SKU</label>
+                            <input type="radio" name="Radio" val="show">
+
+                        </div>
+
+                        <div class="p2c-form-group">
+                            <label for="add">Add an SKU</label>
+                            <input type="radio" name="Radio" val="add">
+
+                        </div>
+
+                        <div class="p2c-form-group">
+                            <label for="remove">Remove an SKU</label>
+                            <input type="radio" name="Radio" val="remove">
+
+                        </div>
+
+                        <div class="p2c-form-group">
+                            <label for="insert">Insert an SKU</label>
+                            <input type="radio" name="Radio" val="insert">
+
+                        </div>
+
+                        <div class="p2c-form-group">
+                            <label for="forecast">Use forecaster</label>
+                            <input type="radio" name="Radio" val="forecast">
+
+                        </div>
+
+
+
+                            <button type="submit" class="p2c-button" value = "p2cbtn">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+
+
+
+{% endblock %}

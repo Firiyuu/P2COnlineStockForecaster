@@ -1,0 +1,90 @@
+
+.submitform
+{
+  text-align: left;
+  vertical-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+.larger-image{
+  width: 600px;
+  height: 400px;
+
+}
+.centerimage{
+  text-align: center;
+}
+
+
+
+.border{
+  border-color: silver;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-left: 375px;
+  margin-right: 300px;
+  margin-bottom: 10px;
+
+}
+
+
+h1
+{
+  color: black;
+  font-family: Times-new-roman;
+}
+h2
+{
+  color: gray;
+  font-family: Time-new-roman;
+  font-style: Italic;
+}
+
+.background
+{
+  background-color: white;
+}
+p{
+  color: black;
+  text-alignment: center;
+  font-family: Times-new-roman;
+
+}
+
+.historyborder
+{
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+
+h3{
+
+  color: black;
+
+  font-family: Times-new-roman;
+  font-style: Italic;
+}
+li
+{font-family: Times-new-roman;
+  font-weight: Bold;
+}
+h5{
+  font-family: Times-new-roman;
+}
+.qoute
+{
+  font-family: times-new-roman;
+  font-style: Italic;
+  font-weight: Bold;
+
+}
+
+.lastfont{
+  font-style: Italic;
+  font-weight: Bold;
+}
